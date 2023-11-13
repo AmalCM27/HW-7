@@ -137,8 +137,6 @@ section {
 	border-radius: 118px;
 	border: 1.5px solid var(--neutral-07, #2C2F24);
 	display: inline-flex;
-
-
 }
 
 .btn:hover {
@@ -202,6 +200,8 @@ section {
 .main_btns {
 	display: flex;
 	justify-content: center;
+	
+	margin-bottom: 80px;
 }
 
 .main .sec_tit {
@@ -244,7 +244,6 @@ section {
 	background: #fff;
 	width: calc((100% - 72px)/4);
 	padding: 40px 34px 32px;
-
 }
 
 .Browse_ic {
@@ -294,86 +293,743 @@ section {
 	padding: 30px;
 }
 
-.srm {
-	padding: 20px 32px 20px 32px;
-	justify-content: center;
-	align-items: center;
-	transition: 0.5s;
-	width: 200px;
-	height: 64px;
-	border-radius: 118px;
-	border: 1.5px solid var(--neutral-07, #2C2F24);
-	display: flex;
-	gap: 10px;
-}
+/* offer */
 
-.srm:hover {
-	background: #2C2F24;
-	color: #fff;
-}
-
-.shrm {
-	color: var(--neutral-07, #2C2F24);
-	font-family: Playfair Display;
+.prt_lu {
+	width: 675px;
+	height: 161px;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 500;
 	font-size: 55px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 60.5px;
-	width: 557px;
-	height: auto 121px;
+	line-height: 60px;
+	color: #2C2F24;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
 
 }
 
-.shrm_eat {
-	color: var(--neutral-07, #2C2F24);
+.offer_card {
+	width: calc((100% - 48px));
+	transform: 0.3s;
+	border-radius: 12px;
+}
+
+.offer_img {
+	width: 306px;
+	height: 393px;
+	border-radius: 22px;
+	margin-bottom: 30px;
+	gap: 24px;
+}
+
+.offer_card:hover {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.offer_tit {
+	color: #2C2F24;
+	text-align: left;
 	font-family: DM Sans;
-	font-size: 18px;
+	font-size: 24px;
 	font-style: normal;
-	font-weight: 500;
-	line-height: 28px;
-	width: 557px;
-	height: auto 112px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+	padding: 25px;
+	margin-left: -3%;
+
 }
 
-.shrm_txt {
+.offer_txt {
 	color: var(--neutral-06, #414536);
-	width: 557px;
+
+	/* Body/16px/Regular */
 	font-family: DM Sans;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 24px;
-	height: auto 72px;
-	display: inline-block;
+	/* 150% */
 }
 
-.Shaurma {
+/* provide */
+
+.provide {
 	background: url(../img/img-2.jpg) no-repeat;
-	margin-left: 18%;
+	margin-left: 7%;
 }
 
-.container-1 {
-	width: 1%;
-	margin: 0 auto;
-	padding: 0px;
+.provide {
+	background: #f9f9f7;
+}
+
+.provide_in {
+	align-items: center;
+}
+
+.provide_left {
+	width: calc(50% - 45px);
+	padding: 0 50px 50px 0;
+	position: relative;
+}
+
+.provide_info {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.provide_right {
+	width: calc(50% - 45px);
+}
+
+.provide .sec_sub-tit {
+	margin-bottom: 24px;
+	color: #2C2F24;
+	font-family: "Playfair Display";
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 60.5px;
+	width: 557px;
+}
+
+.provide_txt {
+	color: #2c2f24;
+	font-size: 18px;
+	margin-bottom: 24px;
+	line-height: 28px;
+	font-weight: 500;
+	width: 557px;
+}
+
+.provide_txt-2 {
+	color: #414536;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+
+.provide_info {
+	padding: 50px;
+	color: #fff;
+	width: 411px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 321px;
+	flex-shrink: 0;
+	border-radius: 12px;
+	background: #474747;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 25px;
+}
+
+.provide_gop {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 25px;
-	margin-top: 0%;
 }
 
-.prt_lu {
-	color: var(--neutral-07, #2C2F24);
-	font-family: Playfair Display;
-	font-size: 55px;
+.provide_info-txt {
+	color: #FFF;
+	font-size: 24px;
 	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+}
+
+/* fast */
+.fast {
+	background: #f9f9f7;
+}
+
+.fast_left {
+	width: 50%;
+}
+
+.fast_right {
+	width: 50%;
+	padding-left: 90px;
+	align-self: center;
+}
+
+.fast_img-big {
+	width: 58%;
+}
+
+.fast_img-sm {
+	width: 42%;
+	padding: 30px 0 0 24px;
+}
+
+.fast_img:first-child {
+	margin-bottom: 24px;
+}
+
+.fast .sec_sub-tit {
+	margin-bottom: 20px;
+}
+
+.fast_txt {
+	color: #414536;
+	font-size: 16px;
+	line-height: 24px;
+	/* 150% */
+	margin-bottom: 50px;
+}
+
+.fast_icon {
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.fast_icon i {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #ad343e url(../img/icons/food_1.jpg) center no-repeat;
+}
+
+.fast_icon:nth-child(2) i {
+	background-image: url(../img/icons/food_2.jpg);
+}
+
+.fast_icon:last-child i {
+	background-image: url(../img/icons/food_3.png);
+}
+
+.fast_icon span {
+	padding-left: 20px;
+	color: #2c2f24;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26px;
+}
+
+.sec_sub-tit {
+	color: #2C2F24;
+	font-family: "Playfair Display";
+	font-size: 55px;
 	font-weight: 500;
 	line-height: 60.5px;
-	width: 675px;
-	margin-left: 18%;
+	width: 461px;
+}
+
+.fast_txt {
+	color: #414536;
+	font-family: "DM Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 414px;
+}
+
+/* our */
+
+.our_img {
+	width: 70px;
+	height: 70px;
+
+}
+
+.our_tit {
+	color: #AD343E;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+	margin-bottom: 24px;
+}
+
+.our_txt {
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+	border-bottom: 1px solid #DBDFD0;
+	color: var(--neutral-06, #414536);
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.our_card {
+	width: calc((100% - 40px) / 3);
+	border-radius: 12px;
+	background: var(--neutral-02, #F9F9F7);
+	padding: 45px 35px 35px;
+}
+
+.our_info {
+	padding-left: 20px;
+}
+
+.our_name {
+	color: #2C2F24;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 3px;
+	display: block;
+}
+
+.out_address {
+	color: #414536;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.our_customer {
+	justify-content: flex-start;
+}
+
+.our .sec_tit {
+	margin-bottom: 64px;
+}
+
+.blogs_img {
+	width: 636px;
+	height: 486px;
+}
+
+.blog_img {
+	width: 343px;
+	height: 232px;
+}
+
+.blog_cards {
+	width: 306px;
+	height: 354px;
+}
+
+.btn__red {
+	background: #FFF;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 64px;
+}
+
+.btn__red:hover {
+	background: #AD343E;
+}
+
+.sec_tits {
+	color: #2C2F24;
+	font-family: Playfair Display;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 60.5px;
+}
+
+/* blog */
+
+.blog_top {
+	align-items: center;
+	margin-bottom: 64px;
+}
+
+.blog_left {
+	width: 50%;
+}
+
+.blog_right {
+	width: 50%;
+	padding-left: 24px;
+}
+
+.blog_right .blog_card {
+	width: calc(50% - 12px);
+}
+
+.blog_imgs {
+	width: 636px;
+	height: 486px;
+	flex-shrink: 0;
+	border-radius: 12px 12px 0px 0px;
+}
+
+.blog_img {
+	width: 343px;
+	height: 232px;
+	flex-shrink: 0;
+	border-radius: 12px 12px 0px 0px;
+}
+
+/* footer */
+
+footer {
+	padding-top: 120px;
+	background: #474747;
+}
+
+.footer_copy {
+	padding: 30px 0 85px;
+	color: #ADB29E;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.footer_big {
+	padding-bottom: 100px;
+	border-bottom: 1px solid #414536;
+	color: #DBDFD0;
+}
+
+.footer_left {
+	width: 30%;
+}
+
+.footer_nav {
+	width: 1 7%;
+}
+
+.footer_right {
+	width: 35%;
+}
+
+.footer_tit {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.img_foot {
+	width: 56px;
+	height: 55px;
+	flex-shrink: 0;
+}
+
+.foot {
+	color: #FFF;
+	font-family: "Playfair Display";
+	font-size: 32.67px;
+	font-style: italic;
+	font-weight: 600;
+	letter-spacing: -0.4px;
+	left: 22.63%;
+	right: -10.22%;
+	top: 10.34%;
+	bottom: 12.07%;
+	line-height: 29px;
+}
+
+.footer_img {
+	width: calc((100% - 15px) / 2);
+	margin-bottom: 15px;
+	border-radius: 12px;
+	overflow: hidden;
+	position: relative;
+}
+
+.footer_img img {
+	transition: 0.5s;
+}
+
+.footer_img:hover img {
+	transform: scale(1.2)
+}
+
+.footer_img::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000;
+	opacity: 0;
+	z-index: 1;
+	transition: 0.5s;
+}
+
+.footer_img:hover::before {
+	opacity: 0.5;
+}
+
+.footer_txt {
+	color: #ADB29E;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 293px;
+}
+
+.footer_list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer_icon {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+}
+
+.footer_ic {
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+
+/* feel */
+
+.feel .sec_sub-tit {
+	color: #FFF;
+	text-align: center;
+
+	font-family: Playfair Display;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 60.5px;
+	width: 596px;
+
+}
+
+.feel_top {
+	background: url(../img/feel-1.jpg) no-repeat center;
+	background-size: cover;
+	display: block;
+	padding: 215px 0;
+
+}
+
+.feel_play {
+	width: 106px;
+	height: 106px;
+	display: block;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 auto 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feel_play::before {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	margin-left: 5px;
+	border-width: 12.5px 0 12.5px 20px;
+	border-color: transparent transparent transparent #AD343E;
+}
+
+
+.feel_top .sec_sub-tit {
+	max-width: 596px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+}
+
+.feel_img {
+	width: 48px;
+	height: 48px;
+}
+
+.feel_org {
+	display: flex;
+	align-items: flex-start;
+	gap: 87px;
+	background: #FFF;
+	gap: 24px;
+}
+
+.feel_info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+
+}
+
+.feel_name {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.feel_address {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 294px;
+}
+
+/* guest */
+
+.guest_img {
+	width: 555px;
+	height: 680px;
+	border-radius: 12px;
+	margin-left: 58%;
+	line-height: 999px;
+}
+
+.guest .sec_sub-tit {
+	color: #2C2F24;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 60.5px;
+	width: 547px;
+}
+
+.guest_txt {
+	width: 556px;
+	color: #414536;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.guest_right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.tabl {
+	width: 293px;
+	height: 174px;
+	border-radius: 15px;
+	border: 1px solid var(--neutral-03, #DBDFD0);
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 15px;
+}
+
+.tabl_w {
+	color: #2C2F24;
+	text-align: center;
+	font-family: Playfair Display;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 60.5px;
+}
+
+.tabl_e {
+	color: #414536;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.tabl_po {
+	width: 610px;
+	height: 372px;
+
+}
+
+.guest_in {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 60px;
+
+}
+
+/* our_menu */
+
+.our_menu .btn:hover {
+	background: #AD343E;
+	color: #fff;
+}
+
+.eda {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 12px;
+	width: calc((100% - 25) / 4);
+}
+
+.eda_img {
+	border-radius: 12px 12px 0px 0px;
+	
+}
+
+.eda_txt {
+	width: 246px;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	height: 90px;
+}
+
+.eda_tit {
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.our_menu .main_txt {
+	max-width: 597px;
+}
+
+
+/* map */
+
+.map{
+	width: 1984px;
+	height: 1155px;
+	display: inline-flex;
+	justify-content: flex-end;
+	align-items: center
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="blog"><div class="container"><div class="blog_top flex"><h2 class="sec_tit">Our Blog & Articles</h2><a href="#" class="btn btn__red">Read All Articles</a></div><div class="blog_cards "><div class="blog_left"><div class="blog_card "><div class="blog_imgs"><img src="img/FastFood-1.jpg" alt=""></div><span class="blog_date">January 3,
+2023</span><h3 class="blog_tit">The secret tips & tricks to prepare a perfect burger & pizza for our customers</h3><p class="blog_txt">Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</p></div></div><div class="blog_right flex"><div class="blog_card flex"><div class="blog_img"><img src="img/FastFood-2.jpg" alt=""></div><span class="blog_date">January 3,
+2023</span><h3 class="blog_tit">How to prepare the perfect french fries in an air fryer</h3></div><div class="blog_card flex"><div class="blog_img"><img src="img/FastFood-3.jpg" alt=""></div><span class="blog_date">January 3,
+2023</span><h3 class="blog_tit">How to prepare delicious chicken tenders/h3></div><div class="blog_card flex"><div class="blog_img"><img src="img/FastFood-4.jpg" alt=""></div><span class="blog_date">7 delicious cheesecake recipes you can prepare</h3></div><div class="blog_card flex"><div class="blog_img"><img src="img/FastFood-5.jpg" alt=""></div><span class="blog_date">January 3,
+2023</span><h3 class="blog_tit">5 great pizza restaurants you should visit this city</h3></div></div></div></div></section>
