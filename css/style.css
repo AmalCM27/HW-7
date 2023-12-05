@@ -76,7 +76,6 @@ body {
 	font-family: " DM Sans", arial;
 	font-size: 18px;
 	line-height: 28px;
-	/* 155.556% */
 }
 
 .container {
@@ -177,11 +176,12 @@ section {
 }
 
 .menu li:last-child a {
-	margin: 0%;
+	margin: 0;
 }
 
 .menu a:hover {
 	background: #D8DFD0;
+	margin: 0;
 }
 
 
@@ -200,7 +200,7 @@ section {
 .main_btns {
 	display: flex;
 	justify-content: center;
-	
+
 	margin-bottom: 80px;
 }
 
@@ -521,6 +521,7 @@ section {
 	font-weight: 500;
 	line-height: 60.5px;
 	width: 461px;
+
 }
 
 .fast_txt {
@@ -615,6 +616,7 @@ section {
 	font-weight: 700;
 	line-height: 24px;
 	margin-bottom: 64px;
+
 }
 
 .btn__red:hover {
@@ -885,7 +887,11 @@ footer {
 	font-weight: 500;
 	line-height: 60.5px;
 	width: 547px;
+
 }
+
+
+
 
 .guest_txt {
 	width: 556px;
@@ -895,7 +901,7 @@ footer {
 	line-height: 24px;
 }
 
-.guest_right {
+.guest_lop {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -963,7 +969,7 @@ footer {
 
 .eda_img {
 	border-radius: 12px 12px 0px 0px;
-	
+
 }
 
 .eda_txt {
@@ -991,7 +997,7 @@ footer {
 
 /* map */
 
-.map{
+.map {
 	width: 1984px;
 	height: 1155px;
 	display: inline-flex;
@@ -999,37 +1005,288 @@ footer {
 	align-items: center
 }
 
+/* form  */
+
+
+.form_in {
+	border-radius: 16px;
+	border: 1px solid #FFF;
+	background: #FFF;
+	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+	max-width: 812px;
+	margin: 0 auto;
+	padding: 43px 50px 50px;
+
+}
+
+.form_txt {
+	color: #2C2F24;
+	font-weight: 700;
+	line-height: 24px;
+	/* 150% */
+	margin-bottom: 8px;
+	display: block;
+}
+
+.form_input-in {
+	border-radius: 72px;
+	border: 1px solid #DBDFD0;
+	margin-bottom: 24px;
+	padding: 0 24px;
+}
+
+.input {
+	line-height: 56px;
+	font-size: 16px;
+}
+
+.form_input {
+	width: calc(50% - 12px);
+
+}
+
+.form_input__big {
+	width: 100%;
+}
+
+.form-wrap {
+	padding-bottom: 0;
+	margin-bottom: -240px;
+	z-index: 10;
+	position: relative;
+}
+
+.form_bis {
+	display: flex;
+	height: 156px;
+	padding: 24px;
+	gap: 10px;
+	border-radius: 16px;
+	border: 1px solid #DBDFD0;
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+.form_ten {
+	color: #2C2F24;
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.map {
+	padding-top: 0;
+}
+
+.sec_desc {
+	margin-bottom: 70px;
+}
+
+.btn__reder {
+	background: #FFF;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 64px;
+	width: 100%;
+}
+
+.btn__reder:hover {
+	background: #AD343E;
+}
+
+.sec_desces {
+	width: 545px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-left: 28%;
+}
 
 
 
 
 
+/* order */
 
 
+.order_left {
+	width: 300px;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+}
+
+.order_right {
+	width: calc(100% - 380px);
+	justify-content: center;
+}
+
+.order_card {
+	width: 220px;
+	margin: 0 12px 40px;
+	background: #fff;
+	border-radius: 12px;
+	border: 1px solid var#F9F9F7;
+	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.order_card__big {
+	width: 260px;
+}
+
+.order_text {
+	width: 346px;
+}
+
+/* pages */
+
+.eda {
+	border: 1px solid #F9F9F7;
+	background: #FFF;
+	box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+	width: 306px;
+	height: 340px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 12px;
+	width: calc((100% - 25) / 4);
+}
+
+.eda_txt__we {
+	font-size: 20px;
+	font-weight: 500;
+	width: 253px;
+	gap: 12px;
+	color: #2C2F24;
+}
+
+.eda_tit__we {
+	color: #737865;
+	font-size: 14px;
+	font-weight: 500px;
+}
 
 
+.feel_address__as {
+	color: #AD343E;
+	font-size: 24px;
+	font-weight: 700;
+}
 
+.feel_info_xall {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+}
 
+.wer {
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 90px;
+	margin-left: 1%;
+	padding: 60px;
+}
 
+.feel_address__qwe {
+	width: 187px;
+}
 
+.feel_address__wer {
+	width: 209px;
+}
 
+/* secret  */
 
+.Secret_tips {
+	width: 1600px;
+	height: 3028px;
+	flex-shrink: 0;
+	background: #F9F9F7;
+}
 
+.title-secret {
+	color: #2C2F24;
+	text-align: center;
+	font-family: Playfair Display;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 60.5px;
 
+}
 
+.secret-img {
+	width: 1070px;
+	height: 700px;
+	flex-shrink: 0;
+	border-radius: 12px 12px 0px 0px;
+	margin-top: 62px;
+	margin-left: 260px;
+}
 
+.secret_inf {
+	width: 1087px;
+	height: 1800px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 48px;
+	margin-left: 260px;
+	margin-top: 50px;
+}
 
+.secret_inf_1_title {
+	color: #2C2F24;
+	font-family: DM Sans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+	padding-bottom: 20px;
+}
 
+.secret_inf_2_title {
+	color: #2C2F24;
+	font-family: DM Sans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+	padding-bottom: 20px;
+}
 
+.secret_inf_2 {
+	width: 1086px;
+	height: 364px;
+}
 
+.secret-img-2 {
+	width: 1087px;
+	height: 638px;
+	flex-shrink: 0;
+}
 
+.secret_inf_3_title {
+	color: #2C2F24;
+	font-family: DM Sans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+	padding-bottom: 20px;
+}
 
-
-
-
-
-<section class="blog"><div class="container"><div class="blog_top flex"><h2 class="sec_tit">Our Blog & Articles</h2><a href="#" class="btn btn__red">Read All Articles</a></div><div class="blog_cards "><div class="blog_left"><div class="blog_card "><div class="blog_imgs"><img src="img/FastFood-1.jpg" alt=""></div><span class="blog_date">January 3,
-2023</span><h3 class="blog_tit">The secret tips & tricks to prepare a perfect burger & pizza for our customers</h3><p class="blog_txt">Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</p></div></div><div class="blog_right flex"><div class="blog_card flex"><div class="blog_img"><img src="img/FastFood-2.jpg" alt=""></div><span class="blog_date">January 3,
-2023</span><h3 class="blog_tit">How to prepare the perfect french fries in an air fryer</h3></div><div class="blog_card flex"><div class="blog_img"><img src="img/FastFood-3.jpg" alt=""></div><span class="blog_date">January 3,
-2023</span><h3 class="blog_tit">How to prepare delicious chicken tenders/h3></div><div class="blog_card flex"><div class="blog_img"><img src="img/FastFood-4.jpg" alt=""></div><span class="blog_date">7 delicious cheesecake recipes you can prepare</h3></div><div class="blog_card flex"><div class="blog_img"><img src="img/FastFood-5.jpg" alt=""></div><span class="blog_date">January 3,
-2023</span><h3 class="blog_tit">5 great pizza restaurants you should visit this city</h3></div></div></div></div></section>
+.js-btn {
+	background: blue;
+}

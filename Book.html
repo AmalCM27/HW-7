@@ -1,45 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-	<link
-		href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;1,600&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
-		<div class="container">
-			<div class="head flex">
-				<a href="index.html" class="head_logo">
-					<img src="img/icons/Logo.png" alt="">
+    <div class="container">
+      <div class="head flex">
+        <a href="index.html" class="head_logo">
+          <img src="img/icons/Logo.png" alt="">
 
-				</a>
-				<nav>
-					<ul class="menu flex">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="menu.html">Menu</a></li>
-						<li><a href="pages.html">Pages</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						
-					</ul>
-				</nav>
-				<a href="#" class="btn">Book A Table</a>
+        </a>
+        <nav>
+          <ul class="menu flex">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
-			</div>
-		</div>
-	</header> 
 
-    <div class="map">
-      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a413b0246160a5024aec09b501ee1d6eb6612fa348026cbf8661d0b85e13dbb&amp;width=100%&amp;height=700&amp;lang=ru_RU&amp;scroll=true"></script>
+          </ul>
+        </nav>
+        <a href="#" class="btn">Book A Table</a>
+
+      </div>
+    </div>  
+  </header>
+
+  <section class="form-wrap">
+    <div class="container">
+      <h2 class="sec_tit">Book A Table</h2>
+      <p class="sec_desces">We consider all the drivers of change gives you the components <br> you need to change to create a truly happens.</p>
+      <div class="form">
+        <form>
+          <div class="form_in flex">
+            <div class="form_input">
+              <span class="form_txt">Date</span>
+              <div class="form_input-in">
+                <input class="input" type="date">
+              </div>
+            </div>
+            <div class="form_input">
+              <span class="form_txt">Time</span>
+              <div class="form_input-in">
+                <input class="input" type="text" placeholder="06:30 PM">
+              </div>
+            </div>
+            <div class="form_input">
+              <span class="form_txt">Name</span>
+              <div class="form_input-in">
+                <input class="input" type="text" placeholder="Enter your name">
+              </div>
+            </div>
+            <div class="form_input">
+              <span class="form_txt">Phone</span>
+              <div class="form_input-in">
+                <input class="input" type="text" placeholder="x-xxx-xxx-xxxx">
+              </div>
+            </div>
+            <div class="form_input form_input__big">
+              <span class="form_txt">Total Person</span>
+              <div class="form_input-in">
+                <input class="input" type="text" placeholder="1 Person">
+              </div>
+            </div>
+            <button class="btn btn__reder js-btn" type="submit">Book A Table</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="map">
+    <script type="text/javascript" charset="utf-8" async
+      src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a413b0246160a5024aec09b501ee1d6eb6612fa348026cbf8661d0b85e13dbb&amp;width=100%&amp;height=700&amp;lang=ru_RU&amp;scroll=true"></script>
   </div>
+
+
 
   <footer>
     <div class="container">
@@ -68,7 +118,7 @@
               <img src="./img/icons/twitter-4.png" alt="">
             </a>
 
-          
+
           </div>
         </div>
         <div class="footer_nav">
@@ -118,6 +168,8 @@
       </div>
       <p class="footer_copy">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
     </div>
-  </footer>
-</body>
+    </footer>
+			<script src="js/core.js"></script>
+    </body>
+
 </html>
